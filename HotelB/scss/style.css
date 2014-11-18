@@ -1,0 +1,40 @@
+
+.circle{
+-webkit-border-radius: 90px;
+-moz-border-radius: 90px;
+border-radius: 90px;
+}
+
+.blackblur{
+ background-color: #000000;
+background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-dark.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.centerdiv{
+text-align:center;
+}
+
+html, body, label, href, h4{
+font-family: 'Slabo 13px', serif !important;
+font-weight: 400;
+color : white;
+}
+
+.fontslabo{
+font-family: 'Slabo 13px', serif !important;
+font-weight: 400;
+color : white;
+font-size: 24px;
+font-weight: bold;
+}
+.fontgrey{
+color : #95A5A6;
+}
+
+.borderstyle{
+border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 1px dashed #95A5A6;
+}
