@@ -16,7 +16,9 @@ MYSQL version 5.0
 *ADMIN PAGE*
 
 Username: demo , password: demo
+
 Admin can delete, edit and view pending and paid bookings.
+
 Admin can delete, edit and view ROOMS.
 
 
