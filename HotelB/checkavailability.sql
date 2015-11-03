@@ -1,6 +1,6 @@
-select r.room_id, (r.total_room-b.totalroombook) as availableroom from room as r 
+SELECT r.room_id, (r.total_room-b.totalroombook) as availableroom from room as r 
 LEFT JOIN ( 
-select b.room_id, sum(b.totalroombook) as totalroombook from booking as b where
+SELECT b.room_id, sum(b.totalroombook) as totalroombook from booking as b where
 ((b.checkin_date between '2014-11-01' AND '2014-11-03') OR (b.checkout_date between '2014-11-01' AND '2014-11-03'))
 AND totalroombook
 GROUP BY b.room_id ) as b 

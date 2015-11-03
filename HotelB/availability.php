@@ -10,7 +10,7 @@ This is normal HTML code
 	$checkout_date =  date('y-m-d', strtotime($_POST['checkout']));
 	echo "<br>".$checkin_date."<br>";
 	echo $checkout_date;
-	include 'auth.php';
+	include './auth.php';
 	
 	//execute the SQL query and return records
 	$result = mysql_query("select * from Room where room.room_id in 

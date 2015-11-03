@@ -1,0 +1,84 @@
+[19-Nov-2014 03:16:22 Asia/Kuala_Lumpur] PHP Warning:  mysql_connect(): Access denied for user 'hotel'@'localhost' (using password: YES) in /home/unleashe/public_html/hotel/auth.php on line 7
+[19-Nov-2014 03:24:12 Asia/Kuala_Lumpur] PHP Warning:  mysql_connect(): Access denied for user 'unleashe_hotel'@'localhost' (using password: YES) in /home/unleashe/public_html/hotel/auth.php on line 7
+[19-Nov-2014 03:24:55 Asia/Kuala_Lumpur] PHP Warning:  mysql_connect(): Access denied for user 'unleashe_hotel'@'localhost' (using password: YES) in /home/unleashe/public_html/hotel/auth.php on line 7
+[19-Nov-2014 03:26:14 Asia/Kuala_Lumpur] PHP Warning:  mysql_connect(): Access denied for user 'hotel'@'localhost' (using password: YES) in /home/unleashe/public_html/hotel/auth.php on line 7
+[19-Nov-2014 03:28:07 Asia/Kuala_Lumpur] PHP Warning:  mysql_connect(): Access denied for user 'unleashe_hotel'@'localhost' (using password: YES) in /home/unleashe/public_html/hotel/auth.php on line 7
+[19-Nov-2014 13:05:22 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '.' in /home/unleashe/public_html/hotel/reservationcomplete.php on line 249
+[19-Nov-2014 13:06:58 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '.' in /home/unleashe/public_html/hotel/reservationcomplete.php on line 249
+[19-Nov-2014 13:07:09 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '.' in /home/unleashe/public_html/hotel/reservationcomplete.php on line 249
+[19-Nov-2014 13:12:25 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '.' in /home/unleashe/public_html/hotel/reservationcomplete.php on line 249
+[19-Nov-2014 13:13:32 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ';' in /home/unleashe/public_html/hotel/reservationcomplete.php on line 251
+[19-Nov-2014 13:13:33 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ';' in /home/unleashe/public_html/hotel/reservationcomplete.php on line 251
+[19-Nov-2014 13:14:11 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ';' in /home/unleashe/public_html/hotel/reservationcomplete.php on line 257
+[19-Nov-2014 13:14:11 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ';' in /home/unleashe/public_html/hotel/reservationcomplete.php on line 257
+[19-Nov-2014 13:14:12 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ';' in /home/unleashe/public_html/hotel/reservationcomplete.php on line 257
+[19-Nov-2014 13:14:25 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ';' in /home/unleashe/public_html/hotel/reservationcomplete.php on line 257
+[19-Nov-2014 13:14:27 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ';' in /home/unleashe/public_html/hotel/reservationcomplete.php on line 257
+[23-Nov-2014 14:12:23 Asia/Kuala_Lumpur] PHP Warning:  mysql_connect(): Access denied for user 'hotel'@'localhost' (using password: YES) in /home/unleashe/public_html/hotel/auth.php on line 8
+[23-Nov-2014 14:12:51 Asia/Kuala_Lumpur] PHP Warning:  mysql_connect(): Access denied for user 'hotel'@'localhost' (using password: YES) in /home/unleashe/public_html/hotel/auth.php on line 8
+[23-Nov-2014 14:44:16 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'firstname' (T_STRING) in /home/unleashe/public_html/hotel/insertandemail.php on line 39
+[04-Dec-2014 13:54:54 Asia/Kuala_Lumpur] PHP Warning:  mysql_connect(): Access denied for user 'unleashe_hotel'@'localhost' (using password: YES) in /home/unleashe/public_html/hotel/auth.php on line 7
+[04-Dec-2014 13:55:19 Asia/Kuala_Lumpur] PHP Warning:  mysql_connect(): Access denied for user 'unleashe_hotel'@'localhost' (using password: YES) in /home/unleashe/public_html/hotel/auth.php on line 7
+[04-Dec-2014 14:43:35 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/unleashe/public_html/hotel/insertandemail.php on line 350
+[04-Dec-2014 16:34:41 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '{' in /home/unleashe/public_html/hotel/paydeposit.php on line 12
+[04-Dec-2014 16:35:00 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '{' in /home/unleashe/public_html/hotel/paydeposit.php on line 12
+[04-Dec-2014 16:35:05 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '{' in /home/unleashe/public_html/hotel/paydeposit.php on line 12
+[04-Dec-2014 16:37:53 Asia/Kuala_Lumpur] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unleashe/public_html/hotel/paydeposit.php:8) in /home/unleashe/public_html/hotel/paydeposit.php on line 14
+[04-Dec-2014 16:41:37 Asia/Kuala_Lumpur] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unleashe/public_html/hotel/paydeposit.php:8) in /home/unleashe/public_html/hotel/paydeposit.php on line 14
+[04-Dec-2014 16:43:12 Asia/Kuala_Lumpur] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unleashe/public_html/hotel/paydeposit.php:8) in /home/unleashe/public_html/hotel/paydeposit.php on line 14
+[04-Dec-2014 16:46:47 Asia/Kuala_Lumpur] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unleashe/public_html/hotel/paydeposit.php:9) in /home/unleashe/public_html/hotel/paydeposit.php on line 17
+[04-Dec-2014 16:47:57 Asia/Kuala_Lumpur] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unleashe/public_html/hotel/paydeposit.php:9) in /home/unleashe/public_html/hotel/paydeposit.php on line 17
+[04-Dec-2014 16:48:25 Asia/Kuala_Lumpur] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unleashe/public_html/hotel/paydeposit.php:9) in /home/unleashe/public_html/hotel/paydeposit.php on line 17
+[04-Dec-2014 17:17:37 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/unleashe/public_html/hotel/paydeposit.php on line 14
+[04-Dec-2014 19:25:30 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/unleashe/public_html/hotel/success.php on line 5
+[04-Dec-2014 19:48:00 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/unleashe/public_html/hotel/success.php on line 14
+[04-Dec-2014 19:48:43 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/unleashe/public_html/hotel/success.php on line 14
+[04-Dec-2014 19:48:44 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/unleashe/public_html/hotel/success.php on line 14
+[04-Dec-2014 19:48:46 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/unleashe/public_html/hotel/success.php on line 14
+[04-Dec-2014 19:48:59 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/unleashe/public_html/hotel/success.php on line 14
+[04-Dec-2014 19:49:45 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/unleashe/public_html/hotel/success.php on line 14
+[04-Dec-2014 19:49:51 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/unleashe/public_html/hotel/success.php on line 14
+[04-Dec-2014 20:01:33 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/unleashe/public_html/hotel/insertandemail.php on line 368
+[04-Dec-2014 20:03:51 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/unleashe/public_html/hotel/insertandemail.php on line 369
+[04-Dec-2014 20:03:54 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/unleashe/public_html/hotel/insertandemail.php on line 369
+[04-Dec-2014 20:04:31 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/unleashe/public_html/hotel/insertandemail.php on line 369
+[04-Dec-2014 20:05:53 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/unleashe/public_html/hotel/insertandemail.php on line 380
+[04-Dec-2014 20:06:15 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/unleashe/public_html/hotel/insertandemail.php on line 380
+[04-Dec-2014 20:10:40 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 8
+[04-Dec-2014 20:26:31 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 8
+[04-Dec-2014 20:28:38 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 7
+[04-Dec-2014 20:28:40 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 7
+[04-Dec-2014 20:31:23 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 8
+[04-Dec-2014 20:39:38 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 13
+[04-Dec-2014 20:52:08 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 13
+[04-Dec-2014 20:55:58 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 13
+[04-Dec-2014 20:58:21 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 12
+[04-Dec-2014 20:59:30 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 12
+[04-Dec-2014 20:59:50 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 12
+[04-Dec-2014 20:59:54 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 13
+[04-Dec-2014 21:00:01 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 13
+[04-Dec-2014 21:00:22 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 13
+[04-Dec-2014 21:00:50 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 13
+[04-Dec-2014 21:01:26 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_query() in /home/unleashe/public_html/hotel/success.php on line 13
+[04-Dec-2014 21:01:42 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_fetch_array() in /home/unleashe/public_html/hotel/success.php on line 16
+[04-Dec-2014 21:01:50 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function msql_fetch_array() in /home/unleashe/public_html/hotel/success.php on line 16
+[04-Dec-2014 21:06:09 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/reservationcomplete.php on line 132
+[04-Dec-2014 21:06:09 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/reservationcomplete.php on line 144
+[04-Dec-2014 21:06:42 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/reservationcomplete.php on line 132
+[04-Dec-2014 21:06:42 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/reservationcomplete.php on line 144
+[05-Dec-2014 03:23:06 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/guestform.php on line 162
+[05-Dec-2014 03:23:06 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/guestform.php on line 174
+[05-Dec-2014 03:23:29 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/guestform.php on line 162
+[05-Dec-2014 03:23:29 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/guestform.php on line 174
+[05-Dec-2014 03:35:11 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/guestform.php on line 162
+[05-Dec-2014 03:35:11 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/guestform.php on line 174
+[05-Dec-2014 03:56:20 Asia/Kuala_Lumpur] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/unleashe/public_html/hotel/sessiondestroy.php on line 4
+[05-Dec-2014 03:56:20 Asia/Kuala_Lumpur] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unleashe/public_html/hotel/sessiondestroy.php:4) in /home/unleashe/public_html/hotel/sessiondestroy.php on line 5
+[05-Dec-2014 04:23:04 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/reservationcomplete.php on line 132
+[05-Dec-2014 04:23:04 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/reservationcomplete.php on line 144
+[05-Dec-2014 04:51:08 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/insertandemail.php on line 36
+[05-Dec-2014 04:51:08 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/insertandemail.php on line 77
+[05-Dec-2014 04:51:08 Asia/Kuala_Lumpur] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unleashe/public_html/hotel/insertandemail.php:36) in /home/unleashe/public_html/hotel/insertandemail.php on line 155
+[05-Dec-2014 04:51:50 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/insertandemail.php on line 36
+[05-Dec-2014 04:51:50 Asia/Kuala_Lumpur] PHP Warning:  Invalid argument supplied for foreach() in /home/unleashe/public_html/hotel/insertandemail.php on line 77
+[05-Dec-2014 04:51:50 Asia/Kuala_Lumpur] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unleashe/public_html/hotel/insertandemail.php:36) in /home/unleashe/public_html/hotel/insertandemail.php on line 155
