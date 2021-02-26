@@ -163,7 +163,7 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 				$datestart =  date('y-m-d', strtotime($_SESSION['checkin_unformat']) );
 				$dateend =  date('y-m-d', strtotime($_SESSION['checkout_unformat']));
 				
-				$result = mysql_query("SELECT r.room_id, (r.total_room-br.total) as availableroom from room as r LEFT JOIN ( 
+				$result = mysqli_query($mysqli, "SELECT r.room_id, (r.total_room-br.total) as availableroom from room as r LEFT JOIN ( 
 				
 										SELECT roombook.room_id, sum(roombook.totalroombook) as total from roombook where roombook.booking_id IN 
 											(
@@ -181,24 +181,24 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 										as br
 					 
 					 ON r.room_id = br.room_id");
-				echo mysql_error();
-				if(mysql_num_rows($result) > 0){
+				echo mysqli_error($mysqli);
+				if(mysqli_num_rows($result) > 0){
 					echo "<p><b>Choose Your Room</b></p><hr class=\"line\">";
 					print "				<form action=\"guestform.php\" method=\"post\">\n";
 					
 							
-					while ($row = mysql_fetch_array($result)) {
+					while ($row = mysqli_fetch_array($result)) {
 				
 								
 						if($row['availableroom'] != null && $row['availableroom'] > 0  )
 						{
 							
-							$sub_result = mysql_query("select room.* from room where room.room_id = ".$row['room_id']." ");
+							$sub_result = mysqli_query($mysqli, "select room.* from room where room.room_id = ".$row['room_id']." ");
 							
-							if(mysql_num_rows($sub_result) > 0)
+							if(mysqli_num_rows($sub_result) > 0)
 							{
 								
-								while($sub_row = mysql_fetch_array($sub_result)){
+								while($sub_row = mysqli_fetch_array($sub_result)){
 								
 								
 								print "					<p><h4>".$sub_row['room_name']."</h4></p>\n";
@@ -246,10 +246,10 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 							}
 						}
 						else if($row['availableroom'] == null ){
-							$sub_result2 = mysql_query("select room.* from room where room.room_id = ".$row['room_id']." ");
-							if(mysql_num_rows($sub_result2) > 0)
+							$sub_result2 = mysqli_query($mysqli,"select room.* from room where room.room_id = ".$row['room_id']." ");
+							if(mysqli_num_rows($sub_result2) > 0)
 							{
-								while($sub_row2 = mysql_fetch_array($sub_result2)){
+								while($sub_row2 = mysqli_fetch_array($sub_result2)){
 								
 								print "					<p><h4>".$sub_row2['room_name']."</h4></p>\n";
 								print "					<div class=\"row\">\n";

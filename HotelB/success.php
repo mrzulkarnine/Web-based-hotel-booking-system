@@ -8,12 +8,12 @@ include './auth.php';
 		$bal = "";
 $id = $_POST['custom'];
 if(isset($id) && !empty($id)){
-$r = mysql_query("UPDATE  `booking` SET  `payment_status` =  'confirmed' WHERE  `booking`.`booking_id` = ".$id.";");
-echo mysql_error();
-$result = mysql_query("select * from booking where booking_id = '".$id."';");
-if(mysql_num_rows($result) > 0)
+$r = mysqli_query($mysqli, "UPDATE  `booking` SET  `payment_status` =  'confirmed' WHERE  `booking`.`booking_id` = ".$id.";");
+echo mysqli_error($mysqli);
+$result = mysqli_query($mysqli, "select * from booking where booking_id = '".$id."';");
+if(mysqli_num_rows($result) > 0)
 	{
-		while($row = mysql_fetch_array($result))
+		while($row = mysqli_fetch_array($result))
 		{
 		$email = $row['email'];
 		$fname = $row['first_name'];

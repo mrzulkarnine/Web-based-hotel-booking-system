@@ -13,13 +13,13 @@ session_start();
 						$_SESSION['deposit'] = 0;
 						}
 	
-				$result = mysql_query("select * from room");
-					if(mysql_num_rows($result) > 0){
+				$result = mysqli_query($mysqli, "select * from room");
+					if(mysqli_num_rows($result) > 0){
 	
 				
 						$count = 0;
 						
-						while($row = mysql_fetch_array($result)){
+						while($row = mysqli_fetch_array($result)){
 						
 							if (isset($_POST["qtyroom".$row['room_id'].""])   && !empty($_POST["qtyroom".$row['room_id'].""]) )
 							{
@@ -54,7 +54,7 @@ session_start();
 <link rel="stylesheet" href="build/css/intlTelInput.css">
 <!--link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="icon/css/fontello.css">
-<link rel="stylesheet" href="icon/css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]>
+<link rel="stylesheet" href="icon/css/animation.css"><[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script-->
 <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
