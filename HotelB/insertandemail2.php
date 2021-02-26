@@ -28,14 +28,14 @@ $_SESSION['special_requirement'] = "";
 }
 
 include './auth.php';
-mysql_query("INSERT INTO `unleashe_hotel`.`guest` 
+mysqli_query($mysqli, "INSERT INTO `unleashe_hotel`.`guest` 
 (`guest_id`, `first_name`, `last_name`, `email`, `telephone_no`, `add_line1`, `add_line2`, `city`, `state`, `postcode`, `country`) 
 VALUES (NULL, '".$_SESSION['firstname']."', '".$_SESSION['lastname']."', '".$_SESSION['email']."', '".$_SESSION['phone']."', '".$_SESSION['addressline1']."', '".$_SESSION['addressline2']."', '".$_SESSION['city']."', '".$_SESSION['state']."', '".$_SESSION['postcode']."', '".$_SESSION['country']."');
 ");
-$id = mysql_insert_id();
-mysql_query("INSERT INTO `unleashe_hotel`.`booking` (`booking_id`, `room_id`, `totalroombook`, `guest_id`, `total_adult`, `total_children`, `checkin_date`, `checkout_date`, `special_requirement`, `payment_status`, `total_amount`, `deposit`, `booking_date`) 
+$id = mysqli_insert_id();
+mysqli_query($mysqli, "INSERT INTO `unleashe_hotel`.`booking` (`booking_id`, `room_id`, `totalroombook`, `guest_id`, `total_adult`, `total_children`, `checkin_date`, `checkout_date`, `special_requirement`, `payment_status`, `total_amount`, `deposit`, `booking_date`) 
 VALUES (NULL, '".$_SESSION['room_id']."', '".$_SESSION['totalroombook']."', '".$id."', '".$_SESSION['adults']."', '".$_SESSION['childrens']."', '".$_SESSION['checkin_db']."', '".$_SESSION['checkout_db']."', '".$_SESSION['special_requirement']."', 'pending', '".$_SESSION['total_amount']."', '".$_SESSION['deposit']."', CURRENT_TIME());");
-$_SESSION['booking_id'] = mysql_insert_id();
+$_SESSION['booking_id'] = mysqli_insert_id();
 
 $to      = $_SESSION['email'];
 $subject = 'Booking Confirmation';

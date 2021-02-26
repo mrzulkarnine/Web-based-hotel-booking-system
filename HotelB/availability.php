@@ -13,13 +13,13 @@ This is normal HTML code
 	include './auth.php';
 	
 	//execute the SQL query and return records
-	$result = mysql_query("select * from Room where room.room_id in 
+	$result = mysqli_query($mysqli, "select * from Room where room.room_id in 
 		  (
               select booking.room_id
               from booking 
 	       )");
 	//fetch tha data from the database 
-	while ($row = mysql_fetch_array($result)) {
+	while ($row = mysqli_fetch_array($result)) {
 	   echo "<br>room_id:".$row{'room_id'}." Room_type:".$row{'bed_type'}."Occupany: ".$row{'occupancy'}."<br>"; //display the results
 		print "<div class=\"row\">\n";
 		print "				<div class=\"large-4 columns\" >\n";
@@ -41,7 +41,7 @@ This is normal HTML code
 
 	   
 	}
-	mysql_close($dbhandle);
+	mysqli_close($dbhandle);
 	
 	?>
 </body>
